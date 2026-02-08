@@ -56,7 +56,7 @@ bool isAgain()
 	}
 }
 
-bool initgame(char** arr, int n) //Initilize the game from start
+bool initgame(char** arr, int n) //Initilize the game from start i.e randomly place the digits in the grid
 {
 	srand(time(0));
 	int k = 0;
