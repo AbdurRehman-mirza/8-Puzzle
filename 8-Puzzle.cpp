@@ -197,7 +197,7 @@ int main()
 
 void playGame(char** arr, int n)
 {
-	cout << "========== Winning isSolved ========= " << endl;
+	cout << "========== Winning Condition ========= " << endl;
 	winCondition();
 	cout << endl << endl;
 	bool check = true;
