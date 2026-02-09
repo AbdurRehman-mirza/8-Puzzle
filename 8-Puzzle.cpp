@@ -34,7 +34,7 @@ bool isSolvable(char* tiles, int n) //checking if the puzzle is actually solvabl
 			}
 		}
 	}
-	count % 2 == 0? true:false;
+	return count % 2 == 0? true:false;
 }
 bool isAgain()
 {
