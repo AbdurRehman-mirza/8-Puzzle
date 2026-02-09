@@ -34,7 +34,7 @@ bool isSolvable(char* tiles, int n) //checking if the puzzle is actually solvabl
 			}
 		}
 	}
-	count % 2 == 0? true:false;
+	return count % 2 == 0? true:false;
 }
 bool isAgain()
 {
@@ -172,8 +172,9 @@ void showInstructions()
 	cout << "================================== WELCOME TO 8-PUZZLE ===================================" << endl;
 	cout << "==== INSTRUCTIONS ====" << endl;
 	cout << "1. You have to solve the puzzle according to the given winning condition." << endl;
-	cout << "2. You can quit anytime during the game (by choice q). " << endl;
-	cout << "3. There are some configurations which ain't solvable and so, the game ends immediately, but if you want to play, keep entereing the choices y, when asked." << endl;
+	cout << "2. Enter a number between 1 and 8 to slide the corresponding piece into the empty position" << endl;
+	cout << "3. You can quit anytime during the game (by choice q). " << endl;
+	cout << "4. There are some configurations which ain't solvable and so, the game ends immediately, but if you want to play, keep entereing the choices y, when asked." << endl;
 	cout << endl;
 
 }
